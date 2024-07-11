@@ -1,0 +1,85 @@
+# React Native
+node_modules/
+tmp/
+temp/
+*.log
+*.patch
+*.crt
+*.pem
+*.key
+.env
+*.lock
+
+# macOS
+.DS_Store
+
+# Xcode
+**/ios/Pods/
+**/ios/build/
+**/ios/Podfile.lock
+**/ios/xcuserdata/
+**/ios/.xcuserdata/
+**/ios/DerivedData/
+**/ios/*.pbxuser
+**/ios/*.mode1v3
+**/ios/*.mode2v3
+**/ios/*.perspectivev3
+**/ios/*.xcodeproj/*
+**/ios/.idea/
+**/ios/*.xcworkspace
+**/ios/*.xcuserstate
+**/ios/*/*.xcodeproj/
+**/ios/*/*.xcworkspace/
+**/ios/*/*.xcscheme
+**/ios/*/*.xccheckout
+**/ios/*/*.moved-aside
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/captures/
+**/android/gradle/wrapper/gradle-wrapper.properties
+**/android/local.properties
+**/android/*.iml
+**/android/.idea/
+**/android/*/local.properties
+**/android/.settings/
+**/android/*/.settings/
+**/android/*.project
+**/android/*.properties
+**/android/*/*.properties
+**/android/.externalNativeBuild/
+**/android/.cxx/
+**/android/.vs/
+**/android/externalNativeBuild/
+**/android/.vscode/
+**/android/*/gradle/wrapper/gradle-wrapper.properties
+**/android/*/local.properties
+
+# Expo
+**/web-build/
+.expo/
+.expo-shared/
+
+# Bundler
+.bundle/
+
+# CocoaPods
+ios/Pods/
+
+# fastlane
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+ios/fastlane/screenshots
+ios/fastlane/test_output
+ios/fastlane/test_output/**/*
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/test_output/**/*
+
+# Mobile
+*.swp
+*.lock
