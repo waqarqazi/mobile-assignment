@@ -4,7 +4,7 @@ apply plugin: "com.facebook.react"
 
 // The following line is important for integrating Hermes:
 def enableHermes = project.hasProperty('hermesEnabled') ? project.hermesEnabled.toBoolean() : false
-
+def enableProguardInReleaseBuilds = false
 android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
