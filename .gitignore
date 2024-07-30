@@ -39,7 +39,6 @@ temp/
 **/android/app/build/
 **/android/build/
 **/android/captures/
-**/android/gradle/wrapper/gradle-wrapper.properties
 **/android/local.properties
 **/android/*.iml
 **/android/.idea/
