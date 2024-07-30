@@ -48,11 +48,11 @@ jobs:
         run: chmod +x android/gradlew
 
       - name: Clean Android project
-        run: ./gradlew clean
+        run: ./gradlew clean --warning-mode all
         working-directory: android
 
       - name: Build Android
-        run: ./gradlew assembleRelease
+        run: ./gradlew assembleRelease --warning-mode all
         working-directory: android
 
       - name: Upload Android build artifact
